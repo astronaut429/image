@@ -4,8 +4,8 @@ async function resizeImage() {
   try {
     await sharp("g.jpg")
       .resize({
-        width: 50,
-        height: 30,
+        width: 150,
+        height: 97,
       })
       .toFile("g_resize.jpg");
   } catch (error) {
